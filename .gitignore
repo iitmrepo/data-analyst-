@@ -1,0 +1,24 @@
+# Environment variables
+# Never commit secret keys or credentials to version control.
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+# This directory contains all the installed packages for the project.
+.venv/
+
+# Python cache files
+# These are created by the Python interpreter.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE configuration folders
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
